@@ -22,6 +22,11 @@ li {
   margin-right: 1em;
   margin-top: 1em; }
 
+.meettheteam {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
 .iconsection {
   background-color: lightblue;
   height: 450px;
@@ -51,17 +56,18 @@ li {
   height: 50px;
   width: 50px; }
 
-.fieldsetlist {
-  display: flex;
-  justify-content: center; }
-
 .panel {
-  width: 500px;
-  height: 300px; }
+  padding-left: 0;
+  width: 370px;
+  height: 250px; }
+
+.panel-heading {
+  width: 370px; }
 
 .placeyourorder {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   background-color: orange;
   margin-top: 0;
   padding-top: 5em; }
