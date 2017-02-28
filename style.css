@@ -1,3 +1,6 @@
+.backgroundimage {
+  background-image: url(images/black-background.jpg); }
+
 h1 {
   background-color: black;
   margin: 0; }
@@ -19,10 +22,6 @@ li {
   margin-right: 1em;
   margin-top: 1em; }
 
-.meettheteam {
-  display: flex;
-  flex-wrap: wrap; }
-
 .iconsection {
   background-color: lightblue;
   height: 450px;
@@ -36,32 +35,35 @@ li {
   font-size: 8em;
   margin-bottom: 2em; }
 
-.placeyourorder {
-  background-color: orange;
-  display: flex; }
-
-.informationboxright {
-  border: 1px solid black;
-  height: 250px;
-  width: 300em;
-  margin: 6em;
-  margin-right: 2em; }
-
-.informationboxleft {
-  border: 1px solid black;
-  height: 250px;
-  width: 300em;
-  margin: 6em;
-  margin-left: 2em; }
-
 .secondheader {
   background-color: orange; }
 
 .confirmorder {
   margin-right: 50px; }
 
-.btn-danger {
-  height: 25px;
-  width: 75px; }
+.informationboxright {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px; }
+
+.informationboxleft {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px; }
+
+.fieldsetlist {
+  display: flex;
+  justify-content: center; }
+
+.panel {
+  width: 500px;
+  height: 300px; }
+
+.placeyourorder {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  margin-top: 0;
+  padding-top: 5em; }
 
 /*# sourceMappingURL=style.css.map */
